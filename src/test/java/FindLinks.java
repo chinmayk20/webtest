@@ -12,6 +12,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import org.apache.xpath.SourceTree;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -34,6 +35,7 @@ public class FindLinks {
         //driver = new FirefoxDriver();
         //baseUrl = "https://www.expedia.com/";
         baseUrl = "http://es.devserver.dev.dkids.mercury.dnitv.com:3000/";
+        System.out.println("Before statement executed");
 
         // Maximize the browser's window
         driver.manage().window().maximize();
