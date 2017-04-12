@@ -35,7 +35,7 @@ public class FindLinks {
         //driver = new FirefoxDriver();
         //baseUrl = "https://www.expedia.com/";
         baseUrl = "http://es.devserver.dev.dkids.mercury.dnitv.com:3000/";
-        System.out.println("Before statement executed");
+        System.out.println("Before statement executed and commit from GIT");
 
         // Maximize the browser's window
         driver.manage().window().maximize();
